@@ -68,3 +68,11 @@ button{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
 }
+.arrange6{
+    margin-top: 30px;
+}
+.arrange1, .arrange2 .arrange3 .arrange4 .arrange5 .arrange6 h1{
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+}
