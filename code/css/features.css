@@ -30,9 +30,33 @@ button{
 }
 .features{
     display: flex;
+    width:1440px;
 }
 .features .message{
     display: flex;
     flex-direction: column;
+}
+.features .message {
+    background: #000;
+    height: 490px;
+    width: 610px;
+}
+.features .message h1{
+    color: #fff;
+    text-align: left;
+    margin-left: 112px;
+    margin-top: 150px;
+    font-size: 40px;
+    letter-spacing: 4.17px;
+}
+.features .message p{
+    color: #fff;
+    font-style: regular;
+    font-size: 15px;
+    line-height: 25px;
+    vertical-align: top;
+    width: 387px;
+    height: 725px;
+    margin-left: 112.2px;
 }
  
