@@ -5,6 +5,7 @@ body{
   .container{
     width: 1440px;
     height: 1988px;
+    margin-left: 165px;
 }
 .nav {
     display: flex;
@@ -31,6 +32,8 @@ button{
 .features{
     display: flex;
     width:1440px;
+    margin-bottom: 160px;
+    height: 490px;
 }
 .features .message{
     display: flex;
@@ -58,5 +61,10 @@ button{
     width: 387px;
     height: 725px;
     margin-left: 112.2px;
+    opacity: 60%;
 }
- 
+.arrange{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
