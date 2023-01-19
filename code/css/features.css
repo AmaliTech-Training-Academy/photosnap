@@ -175,15 +175,23 @@ margin-bottom: 30px;
     
 }
 .one img{
-    padding: -310px;
+margin-top: 60px;
+margin-left: 80px;
 }
 .one h1{
     padding: 10px;
 }
 .nav2{
-margin-left: 200px;
+margin-left: 350px;
 color: #fff;
 }
 footer .one img{
     color: #fff;
+
+}
+ svg{
+    padding: 2px;
+}
+.social-media{
+    margin-left: 55px;
 }
