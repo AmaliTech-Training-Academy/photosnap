@@ -139,15 +139,51 @@ margin-bottom: 30px;
     line-height: 48px;
     letter-spacing: 4.17px;
     margin-left: 176px;
-    margin-top: 68px;
+    margin-top: 78px;
 }
 .beta p{
     color: #fff;
-    margin-top: 68px;
+    margin-top: 132px;
     margin-right: 223px;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 15.62px;
+}
+.footer{
+    background: #000;
+    display: grid;
+    grid-template: 2fr 1;
+}
+.footer .one{
+    display: flex;
+}
+.footer .one h1{
+    color: #fff;
+}
+.footer p{
+    color: #fff;
+}
+
+.image{
+ margin-left: 20px;   
+}
+
+.one {
+    margin-left: ;
+    
+}
+.one img{
+    padding: -310px;
+}
+.one h1{
+    padding: 10px;
+}
+.nav2{
+margin-left: 200px;
+color: #fff;
+}
+footer .one img{
+    color: #fff;
 }
