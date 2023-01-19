@@ -64,7 +64,7 @@ li, a, button {
 }
 
 button {
-  padding: 9px 25px;
+  /* padding: 9px 25px; */
   background-color: var(--pure-black);
   width: 158px;
   height: 48px;
@@ -90,7 +90,7 @@ button:hover{
 
   grid-template-areas: 
   'image-two image-two first-image first-image first-image first-image'
-  'three three three four four four'
+  'three three three three four four'
    'five five six six six six';
   
 height: 100%;
@@ -102,7 +102,7 @@ height: 100%;
 grid-area: first-image;
   background:url('./assets/home/desktop/create-and-share.jpg'); 
   height: 40rem;
-  background-size: cover;
+   background-size: cover; 
   
 
 }
@@ -118,27 +118,32 @@ grid-area: first-image;
 #item-2 {
    grid-area: three;
    height: 40rem;
-  background-color: #f5d9ad; 
+  background: url(./assets/home/desktop/beautiful-stories.jpg);
+  background-size: cover;
+  
  
   
 }
 #item-3 {
 grid-area: four;
 height: 40rem;
-  background-color: #ac9bd9; 
+/* border: 1px solid black; */
+  background-color: var(--pure-white); 
 
 }
 
 #item-4 {
    grid-area: five;
-  background-color: #e9f5fd; 
+  background-color: var(--pure-white); 
   height: 40rem;
 
   
 }
 #item-5 {
   grid-area: six;
-  background-color: #75fd6e;
+  background: url('./assets/home/desktop/designed-for-everyone.jpg');
+  
+  background-size: cover;
   height: 40rem; 
   
   
@@ -182,6 +187,140 @@ height: 40rem;
   font-family: var(--small-text);
   font-weight: 700;
 }
+.item-1-small-span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.item3-content{
+  display: table;
+  margin: 0 auto;
+  padding-top: 8.5rem;
+}
+
+.item3-content-heading h1{
+  color: var(--pure-black);
+  font-family: var(--small-text);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px; 
+  width: 300px;
+  letter-spacing: 4.17px;
+}
+
+.item3-content-paragraph{
+  color:var(--light-gray);
+  font-family: var(--small-paragraph);
+  line-height: 25px;
+  font-size: 15px;
+  width: 380px;
+  padding-top: 2rem;
+}
+
+
+.item3-last-section{
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 2rem;
+ 
+}
+
+.item3-last-section-span{
+  font-family: var(--small-text);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.item3-last-section-span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}  
+
+
+
+.item4-content{
+  display: table;
+  margin: auto;
+  padding-top:10rem;
+
+  
+}
+
+.item4-content-heading h1{
+  color: var(--pure-black);
+  font-family: var(--small-text);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px; 
+  width: 380px;
+  letter-spacing: 4.17px;
+}
+
+.item4-content-paragraph{
+  color:var(--light-gray);
+  font-family: var(--small-paragraph);
+  line-height: 25px;
+  font-size: 15px;
+  width: 380px;
+  padding-top: 2rem;
+}
+
+
+.item4-last-section{
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 2rem;
+ 
+}
+
+.item4-last-section-span{
+  font-family: var(--small-text);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.item4-last-section-span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.image-grid{
+  display: grid;
+  margin: 0 auto 0 auto;
+  grid-template-columns: auto auto auto auto;
+  width:90vw;
+  
+}
+
+.cards{
+  
+  height: 500px;
+ 
+}
+
+.img1{
+  background: url('./assets/stories/desktop/mountains.jpg');
+  background-size: cover;
+ }
+
+
+ .img2{
+ background: url('./assets/stories/desktop/cityscapes.jpg');
+ background-size: cover;
+ }
+
+.img3{
+  background: url('./assets/stories/desktop/18-days-voyage.jpg');
+  background-size: cover;
+}
+
+.img4{
+  background: url('./assets/stories/desktop/architecturals.jpg');
+  background-size: cover;
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -189,14 +328,6 @@ height: 40rem;
     width: 768px;
     background-color: red;
   }
-  .logo{
-    position: relative;
-    right: 30px;
-  } 
-
-  button{
-    position: relative;
-    left: 20px;
-  }
+  
  
 }
