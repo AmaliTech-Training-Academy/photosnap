@@ -5,6 +5,8 @@
   --light-gray:#dfdfdf;
   --pure-white:#ffffff;
   --small-text:"DM Sans", sans-serif;
+  --small-paragraph:'DM Sans', sans-serif;
+
 }
 
 *{
@@ -88,7 +90,7 @@ button:hover{
 
   grid-template-areas: 
   'image-two image-two first-image first-image first-image first-image'
-  'three three three three four four'
+  'three three three four four four'
    'five five six six six six';
   
 height: 100%;
@@ -142,19 +144,43 @@ height: 40rem;
   
 }
 
-.item-1-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-.item-1-content h1{
+.item-1-heading h1{
   letter-spacing: 4.17px;;
   width: 387px;
   font-size: 40px;
   font-family: var(--small-text);
   text-transform: uppercase;
-  padding-top: 173px;
+}
+.item-1-content{
+  display: flex;
+  padding-top: 10rem;
+  
+}
+
+.item-1-paragraph{
+  font-family: var(--small-paragraph);
+  font-size: 15px;
+  line-height: 25px;
+  color:var(--light-gray);
+  width: 380px;
+  padding-top: 1.313rem;
+ 
+}
+.item-1-last-section{
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 1.7rem;
+}
+
+.item-1-description{
+ margin: 0 auto;
+}
+
+.item-1-small-span{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: var(--small-text);
+  font-weight: 700;
 }
 
 
