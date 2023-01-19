@@ -17,11 +17,216 @@
 }
 
 body{
-    height: auto;
     font-family: 'DM Sans', sans-serif;
 }
 
 .container{
-    width: auto;
+    width: 100%;
     margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem auto 0 auto;
+    border: 4px solid black;
+
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    border: 3px solid black;
+}
+
+.btn-1{
+    padding: 10px 30px;
+    align-items: center;
+    color: var(--Angel);
+    background-color: var(--pure-black);
+    font-size: 0.8rem;
+}
+
+.header{
+    display: flex;
+    align-items: center ;
+    width: 95%;
+    height: 40rem;
+    margin: 0rem auto 0 auto;
+    background: url(../assets/stories/desktop/moon-of-appalacia.jpg) no-repeat center center;
+    background-size: cover;
+    border: 4px solid black;
+}
+
+.header-content{
+    border: 4px solid red;
+    width: 40%;
+    /* height: auto; */
+    position: relative;
+    left: 6rem;
+}
+
+.header-content .head-cont-p{
+    position: absolute;
+    top: -5rem;
+    font-weight: 700;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--Angel);
+}
+
+.header-content .head-cont-h2{
+    /* top: 2rem; */
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    width: 60%;
+    color: var(--Angel);
+}
+
+.head-cont-pp{
+    line-height: 2rem;
+    font-size: 13px;
+    color: var(--Angel);
+}
+
+.head-cont-span-pp{
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.head-cont-ppp{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    width: 72%;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    color: var(--Angel);
+}
+
+.header-content a{
+    letter-spacing: 2px;
+    line-height: 16px;
+    text-align: right;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--Angel);
+}
+
+.header-content img{
+    height: 1rem;
+    fill: var(--Angel);
+}
+
+.header-content a .white{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(294deg) brightness(104%) contrast(103%);
+}
+
+.cardholder{
+    width: 95%;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.cards{
+    border: 2px solid green;
+    /* width: 22rem; */
+    height: 32rem;
+}
+
+.top1{
+    background: url(../assets/stories/desktop/mountains.jpg) no-repeat;
+    background-size: cover;
+}
+
+.top2 {
+    background: url(../assets/stories/desktop/cityscapes.jpg);
+    background-size: cover;
+}
+.top3{
+    background: url(../assets/stories/desktop/18-days-voyage.jpg);
+    background-size: cover;
+}
+.top4{
+    background: url(../assets/stories/desktop/architecturals.jpg);
+    background-size: cover;
+}
+
+.top5{
+    background: url(../assets/stories/desktop/world-tour.jpg);
+    background-size: cover;
+}
+
+.top6{
+    background: url(../assets/stories/desktop/unforeseen-corners.jpg);
+    background-size: cover;
+}
+
+.top7{
+    background: url(../assets/stories/desktop/king-on-africa.jpg);
+    background-size: cover;
+}
+
+.top8{
+    background: url(../assets/stories/desktop/trip-to-nowhere.jpg);
+    background-size: cover;
+}
+
+.top9{
+    background: url(../assets/stories/desktop/rage-of-the-sea.jpg);
+    background-size: cover;
+}
+
+.top10{
+    background: url(../assets/stories/desktop/running-free.jpg);
+    background-size: cover;
+}
+
+.top11{
+    background: url(../assets/stories/desktop/behind-the-waves.jpg);
+    background-size: cover;
+}
+
+.top12{
+    background: url(../assets/stories/desktop/calm-waters.jpg);
+    background-size: cover;
+}
+
+.top13{
+    background: url(../assets/stories/desktop/milky-way.jpg);
+    background-size: cover;
+}
+
+.top14{
+    background: url(../assets/stories/desktop/dark-forest.jpg);
+    background-size: cover;
+}
+
+.top15{
+    background: url(../assets/stories/desktop/somwarpet.jpg);
+    background-size: cover;
+}
+
+.top16{
+    background: url(../assets/stories/desktop/land-of-dreams.jpg);
+    background-size: cover;
+}
+
+.cards-content{
+    width: 60%;
+    border: 3px solid yellow;;
 }
