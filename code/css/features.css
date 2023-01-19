@@ -54,14 +54,14 @@ button{
 }
 .features .message p{
     color: #fff;
-    font-style: regular;
+    font-style: normal;
     font-size: 15px;
     line-height: 25px;
     vertical-align: top;
     width: 387px;
     height: 725px;
     margin-left: 112.2px;
-    opacity: 60%;
+    opacity: 60%
 }
 .arrange{
     display: grid;
@@ -69,10 +69,80 @@ button{
     gap: 50px;
 }
 .arrange6{
-    margin-top: 30px;
+    margin-top: 20px;
+}
+.arrange2{
+    margin-top: -20px;
+}
+.arrange5{
+margin-bottom: 30px;
+}
+.arrange4{
+    margin-top: 10px;
+}
+.arrange5 h1{
+    margin-top: 10px;
+}
+.arrange5 p{
+    margin-top: -10px;
 }
 .arrange1, .arrange2 .arrange3 .arrange4 .arrange5 .arrange6 h1{
     font-weight: 700;
     color: #000;
     font-size: 18px;
+}
+.arrange1, .arrange2 .arrange3, .arrange4, .arrange5 .arrange6 p{
+    font-size: 15px;
+    font-style: normal;
+    line-height: 25px;
+    font-weight: 500;
+    
+}
+.arrange1 p{
+    opacity:  60%;
+}
+.arrange2 p{
+    opacity: 60%;
+}
+.arrange3 p{
+    opacity: 60%;
+}
+.arrange4 p{
+    opacity:  60%;
+}
+.arrange5 p{
+    opacity: 60%;
+}
+.arrange6 p{
+    opacity: 60%;
+}
+.nav2{
+    margin-left: -20px;
+    margin-top: 30px;
+}
+.best{
+    background-image: url(../assets/shared/desktop/bg-beta.jpg);
+    width: 1440px;
+    background-size: cover;
+}
+.beta{
+    display: flex;
+    justify-content: space-between;
+}
+.beta h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+    width: 400px;
+    height: 144px;
+    text-transform: uppercase;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+    margin-left: 176px;
+    margin-top: 68px;
+}
+.beta p{
+    color: #fff;
+    margin-top: 68px;
+    margin-right: 223px;
 }
