@@ -15,10 +15,10 @@ body{
     margin-bottom: 28px;
 }
 .nav p{
-font-size: 15px;
+font-size: 12px;
 font-weight: 700;
-line-height: 15px;
-
+line-height: 16px;
+letter-spacing: 2px;
 }
 button{
     background: #000;
@@ -131,7 +131,7 @@ margin-bottom: 30px;
 }
 .beta h1{
     color: #fff;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 40px;
     width: 400px;
     height: 144px;
@@ -154,7 +154,6 @@ margin-bottom: 30px;
 .footer{
     background: #000;
     display: grid;
-    grid-template: 2fr 1;
 }
 .footer .one{
     display: flex;
@@ -194,4 +193,15 @@ footer .one img{
 }
 .social-media{
     margin-left: 55px;
+    margin-top: -16px;
 }
+.invite{
+    margin-left: 1005px;
+    margin-bottom: 50px;
+    margin-top: -200px;
+}
+.invite p{
+    text-transform: uppercase;
+    margin-bottom: ;
+}
+.i
