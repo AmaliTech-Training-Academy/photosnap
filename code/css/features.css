@@ -181,8 +181,12 @@ margin-left: 80px;
     padding: 10px;
 }
 .nav2{
-margin-left: 350px;
+margin-left: 450px;
 color: #fff;
+}
+.nav2 p{
+    font-size: 15px;
+    font-style: bold;
 }
 footer .one img{
     color: #fff;
@@ -194,14 +198,18 @@ footer .one img{
 .social-media{
     margin-left: 55px;
     margin-top: -16px;
+    margin-bottom: 12px;
 }
 .invite{
     margin-left: 1005px;
     margin-bottom: 50px;
     margin-top: -200px;
 }
-.invite p{
+.get{
     text-transform: uppercase;
-    margin-bottom: ;
+    margin-bottom: 102px;
 }
-.i
+.footer1{
+    text-transform: capitalize;
+    opacity: 50%;
+}
