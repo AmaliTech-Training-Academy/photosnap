@@ -25,6 +25,14 @@ body{
     margin: 0 auto;
 }
 
+a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--Angel);
+}
 .nav{
     display: flex;
     width: 75%;
@@ -54,7 +62,7 @@ body{
 .header{
     display: flex;
     align-items: center ;
-    width: 95%;
+    /* width: 95%; */
     height: 40rem;
     margin: 0rem auto 0 auto;
     background: url(../assets/stories/desktop/moon-of-appalacia.jpg) no-repeat center center;
@@ -136,7 +144,8 @@ body{
 }
 
 .cardholder{
-    width: 95%;
+    position: relative;
+    /* width: 100%; */
     margin: 0 auto 0 auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -146,6 +155,22 @@ body{
     border: 2px solid green;
     /* width: 22rem; */
     height: 32rem;
+    transition: 0.5s;
+}
+
+.cards:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 20px 2px rgba(0,0,0,0.2);
+}
+
+.cards-content{
+    position: relative;
+    top: 70%;
+    left: 13%;
+}
+
+.cards-content p{
+    color: var(--Angel);
 }
 
 .top1{
@@ -230,3 +255,77 @@ body{
     width: 60%;
     border: 3px solid yellow;;
 }
+
+.footer{
+    border: 4px solid rgb(255, 111, 0);
+    display: flex;
+    margin: 0 auto;
+    /* width: 95%; */
+    align-items: center;
+    background-color: var(--pure-black);
+}
+
+.row{
+    padding: 1rem 1rem;
+}
+
+.footer-content{
+    border: 2px solid pink;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: auto auto auto;
+    width: 82%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content-right{
+    position: absolute;
+    left: 10%;
+    
+}
+.socials{
+    border: 2px solid pink;
+    width: 100%;
+}
+
+.socials-icon {
+    border: 3px solid green;
+    width: 100%;
+    display: flex;
+    letter-spacing: 0.7rem;
+    justify-content: space-between;
+    margin: 2rem 0 0 0;
+}
+
+.socials-icon a{
+    color: var(--Angel);
+}
+
+.footer-nav-links{
+    border: 3px solid green;
+    display: flex;
+    line-height: 1.5rem;
+}
+
+.footer-nav-links a{
+    text-transform: uppercase;
+    color: var(--Angel);
+}
+
+.footer-extra-nav{
+    position: absolute;
+    right: 10%;
+    line-height: 3rem;
+}
+
+.extra-nav{
+    text-align: right;
+}
+
+.extra-nav p{
+    color: var(--light-grey);
+}
+
+
