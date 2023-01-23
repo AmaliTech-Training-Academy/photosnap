@@ -4,6 +4,7 @@
   }
   .container{
     width: 1440px;
+    margin-left: -10px;
     height: 1988px;
     
 }
@@ -52,7 +53,7 @@ button{
     display: flex;
     flex-direction: column;
     background: #000;
-    height: 490px;
+    height: 480px;
     width: 610px;
     margin-top: -10px;
 }
@@ -78,6 +79,7 @@ button{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
     margin-top: 160px;
+    margin-left: 100px;
 }
 
 .arrange6{
@@ -320,18 +322,20 @@ svg{
     text-transform: uppercase;
     line-height: 40px;
     letter-spacing: 3.3px;
-    margin-left: 5px;
+    margin-left: 15px;
     
 }
 .beta p{
     color: #fff;
-    margin-top: 132px;
+    margin-top: 24px;
+    margin-left: 30px;
     margin-right: 223px;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 15.62px;
+    width: 315px;
 }
 .footer{
     background: #000;
@@ -350,6 +354,7 @@ svg{
 
 .image{
  margin-left: 20px;   
+
 }
 
 .one {
@@ -358,18 +363,23 @@ svg{
 }
 .one img{
 margin-top: 60px;
-margin-left: 80px;
+margin-left: 77px;
 }
 .one h1{
     padding: 10px;
 }
 .nav2{
-margin-left: 450px;
+margin-left: 96px;
 color: #fff;
+margin-top: 61px;
+margin-bottom: -54px;
+padding-top:32px;
 }
 .nav2 p{
     font-size: 15px;
     font-style: bold;
+    margin-top:5px;
+    
 }
 footer .one img{
     color: #fff;
@@ -377,22 +387,24 @@ footer .one img{
 }
 
 
-svg{
-   padding: 2px;
+.beta svg{
+   margin-top: 12px;
 }
 .social-media{
-   margin-left: 55px;
-   margin-top: -16px;
-   margin-bottom: 12px;
+   margin-left: 87px;
+   margin-top: -140px;
+   margin-bottom: -303px;
+   position: static;
 }
 .invite{
    margin-left: 1005px;
    margin-bottom: 50px;
    margin-top: -200px;
 }
-.get{
+.get p{
    text-transform: uppercase;
    margin-bottom: 102px;
+   color: #fff;
 }
 .footer1{
    text-transform: capitalize;
