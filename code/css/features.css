@@ -5,10 +5,11 @@
   .container{
     width: 1440px;
     height: 1988px;
-    margin-left: 165px;
+    
 }
 .nav{
     display: flex;
+    margin-top: 30px;
 
 }
 .tab {
@@ -21,7 +22,7 @@
     margin-left: 40px;
 }
 .button{
-    margin-left: 100px;
+    margin-left: 170px;
     margin-top: 5px;
     margin-right: 20px;
     width: 158px;
@@ -176,7 +177,7 @@ margin-top: 10px;
 .footer .one h1{
     color: #fff;
 }
-}
+
 .footer p{
     color: #fff;
 }
@@ -209,7 +210,7 @@ footer .one img{
 
 }
 
-}
+
 svg{
    padding: 2px;
 }
@@ -230,4 +231,171 @@ svg{
 .footer1{
    text-transform: capitalize;
    opacity: 50%;
+}
+
+@media screen and (max-width: 375px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 75px;
+    }
+    .container{
+        width: 375px;
+        height: 33223px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .features{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        width: 375px;
+
+    }
+    .features img{
+        width: 375px;
+    
+    }
+    .features .message{
+        width: 375px;
+
+    }
+    .features .message p{
+        width: 318px;
+        height: 100px;
+        margin-left: 52px;
+        margin-bottom: 72px;
+    }
+    .features .message h1 {
+        margin-left: 52px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .arrange{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .arrange p{
+        width: 315px;
+        height: 75px;
+        margin-top: 41px;
+        opacity: 60%;
+        line-height: 25px;
+        font-size: 15px;
+        vertical-align: top;
+    }
+    .arrange h1{
+        line-height: 25px;
+        width: 310px;
+        height: 25px;
+    }
+    .arrange img{
+        margin-left: 60px;
+    }
+    .arrange6 h1{
+        line-height: 25px;
+        width:410px;
+        height: 25px;
+    }
+    
+.best{
+    background-image: url(../assets/shared/desktop/bg-beta.jpg);
+    width: 375px;
+    background-size: cover;
+}
+.beta{
+    display: flex;
+    flex-direction: column;
+}
+.beta h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    width: 310px;
+    height: 120px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 3.3px;
+    margin-left: 5px;
+    
+}
+.beta p{
+    color: #fff;
+    margin-top: 132px;
+    margin-right: 223px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 15.62px;
+}
+.footer{
+    background: #000;
+    display: grid;
+}
+.footer .one{
+    display: flex;
+}
+.footer .one h1{
+    color: #fff;
+}
+
+.footer p{
+    color: #fff;
+}
+
+.image{
+ margin-left: 20px;   
+}
+
+.one {
+    margin-left: ;
+    
+}
+.one img{
+margin-top: 60px;
+margin-left: 80px;
+}
+.one h1{
+    padding: 10px;
+}
+.nav2{
+margin-left: 450px;
+color: #fff;
+}
+.nav2 p{
+    font-size: 15px;
+    font-style: bold;
+}
+footer .one img{
+    color: #fff;
+
+}
+
+
+svg{
+   padding: 2px;
+}
+.social-media{
+   margin-left: 55px;
+   margin-top: -16px;
+   margin-bottom: 12px;
+}
+.invite{
+   margin-left: 1005px;
+   margin-bottom: 50px;
+   margin-top: -200px;
+}
+.get{
+   text-transform: uppercase;
+   margin-bottom: 102px;
+}
+.footer1{
+   text-transform: capitalize;
+   opacity: 50%;
+}
 }
