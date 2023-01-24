@@ -791,8 +791,8 @@ margin-bottom: .4rem;
 
   grid-template-areas: 
   'image-two image-two image-two image-two first-image first-image'
-  'three three three three four four'
-   'five five six six six six';
+'three three three four four four'
+'five five five five six six';
   
 height: 100%;
 
@@ -876,4 +876,83 @@ height: 40rem;
   width: 20rem;
 }
 
+} 
+
+
+/* Media Queries for all mobile devices */ 
+@media screen and (max-width:480px) and (min-width:320px){
+
+
+  body{
+ 
+  }
+
+
+  .mid-section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .image-grid{
+   display: flex;
+   flex-direction: column;
+  } 
+
+  .angry-grid{
+ display: flex;
+ flex-direction: column;
+
+ 
+  
+   
+  }
+
+  .nav__links{
+    display: none;
+  }
+
+  .cta{
+    display: none;
+  }
+
+  #item-0 {
+    
+    background-image: url(./assets/home/mobile/create-and-share.jpg);
+    background-size: cover; 
+    height: 25rem;
+    width: 100%
+    
+    }
+ #item-1{
+   height: 40rem;
+ }
+
+#item-2 {
+  background-image: url(./assets/home/mobile/beautiful-stories.jpg);
+  background-size: cover;
+  height: 20rem;
 }
+
+
+#item-3{
+  height: 35rem;
+}
+
+#item-5{
+  background-image: url(./assets/home/mobile/designed-for-everyone.jpg);
+  background-size: cover;
+  height: 23.4375rem
+}
+#item-4{
+  height: 35rem;
+}
+    #yo{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+ 
+}
+
