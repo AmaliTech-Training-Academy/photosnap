@@ -19,6 +19,9 @@
     margin-left: 70px;
 
 }
+.image{
+    display: none;
+}
 .tab p{
     margin-left: 40px;
 }
@@ -244,6 +247,17 @@ svg{
         display: flex;
         flex-direction: column;
         margin-top: 0;
+    }
+    .tab{
+        display: none;
+    
+    
+    }
+    .button{
+        display: none;
+    }
+    .image{
+        display: flex;
     }
     .features{
         display: flex;
