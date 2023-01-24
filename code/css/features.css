@@ -300,107 +300,47 @@ svg{
         height: 25px;
     }
     
-.best{
-    background-image: url(../assets/shared/desktop/bg-beta.jpg);
-    width: 375px;
-    background-size: cover;
+.footer{
+    display: flex;
+    flex-direction: column;
 }
 .beta{
     display: flex;
     flex-direction: column;
 }
-.beta h1{
+.beta h1 {
     color: #fff;
     font-weight: 700;
     font-size: 32px;
-    width: 310px;
+    width: 344px;
     height: 120px;
-    margin-top: 10px;
     text-transform: uppercase;
     line-height: 40px;
-    letter-spacing: 3.3px;
-    margin-left: 15px;
-    
+    letter-spacing: 3.33px;
+    margin-left: 14px;
+    margin-top: 78px;
+    margin-bottom: -109px;
 }
 .beta p{
-    color: #fff;
-    margin-top: 24px;
-    margin-left: 30px;
-    margin-right: 223px;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 15.62px;
-    width: 315px;
+    margin-left: 20px;
+    width: 168px;
 }
-.footer{
-    background: #000;
-    display: grid;
-}
-.footer .one{
-    display: flex;
-}
-.footer .one h1{
-    color: #fff;
-}
-
-.footer p{
-    color: #fff;
-}
-
-.image{
- margin-left: 20px;   
-
-}
-
-.one img{
-margin-top: 60px;
-margin-left: 77px;
-}
-.one h1{
-    padding: 10px;
-}
-.nav2{
-margin-left: 96px;
-color: #fff;
-margin-top: 61px;
-margin-bottom: -54px;
-padding-top:32px;
-}
-.nav2 p{
-    font-size: 15px;
-    font-style: bold;
-    margin-top:5px;
-    
-}
-footer .one img{
-    color: #fff;
-
-}
-
-
-.beta svg{
-   margin-top: 12px;
+.best{
+    width: 375px;
 }
 .social-media{
-   margin-left: 87px;
-   margin-top: -140px;
-   margin-bottom: -303px;
-   position: static;
+    margin-top: -148px;
+    margin-left: 85px;
+}
+.nav2{
+margin-left: 97px;
+color: #fff;
+margin-bottom: -20px;
+margin-top: 60px;
 }
 .invite{
-   margin-left: 1005px;
-   margin-bottom: 50px;
-   margin-top: -200px;
-}
-.get p{
-   text-transform: uppercase;
-   margin-bottom: 102px;
-   color: #fff;
-}
-.footer1{
-   text-transform: capitalize;
-   opacity: 50%;
+    margin-left: 91px;
+    margin-bottom: 50px;
+    margin-top: 126px;
 }
 }
