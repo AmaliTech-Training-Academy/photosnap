@@ -172,6 +172,12 @@ margin-top: 10px;
     letter-spacing: 2px;
     line-height: 15.62px;
 }
+.beta p:hover{
+    text-decoration: underline;
+}
+.get p:hover{
+    text-decoration: underline;
+}
 .footer{
     background: #000;
     display: grid;
