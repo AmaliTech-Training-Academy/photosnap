@@ -335,12 +335,24 @@ svg{
 .nav2{
 margin-left: 97px;
 color: #fff;
-margin-bottom: -20px;
+margin-bottom: -33px;
 margin-top: 60px;
 }
 .invite{
     margin-left: 91px;
     margin-bottom: 50px;
     margin-top: 126px;
+}
+.footer1{
+    margin-top: -50px;
+
+
+}
+.footer1 p{
+    width: 300px;
+    font-size: 15px;
+    height: 20px;
+    line-height: 20.2px;
+    margin-left: -20px;
 }
 }
