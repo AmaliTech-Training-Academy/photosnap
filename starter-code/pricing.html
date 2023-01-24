@@ -5,64 +5,123 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/pricing.css">
   <title>Frontend Mentor | Photosnap Website Challenge</title>
 </head>
 <body>
   <div class="container">
-  Stories
-  Features
-  Pricing
+    <div class="container">
+      <header>
+          <div class="logo">
+            <img src="./assets/shared/desktop/logo.svg" alt="logo">
+          </div>
+          <div class="nav-links">
+            <a href="stories.html"><li>Stories</li> </a>
+            <a href="features.html"><li>Features</li> </a>
+            <a href="pricing.html"><li>Pricing</li> </a>
+          </div>
+          <div class="nav-btn">
+            <button class="btn-1">GET AN INVITE</button>
+          </div>
+    <!-- Nav bar menu -->
+        <div class="mob-menu">
+          <img class="mob-open"  src="./assets/shared/mobile/menu.svg" alt="openSvg">
+          <div class="mob-wrapper close">
+            <img src="./assets/shared/mobile/close.svg" class="mob-close" alt="closeSvg">
+          
+            <div class="mob-list">
+              <a href="stories.html" class="mob-list_item">Stories</a>
+              <a href="features.html" class="mob-list_item">Features</a>
+              <a href="pricing.html" class="mob-list_item">Pricing</a>
+              <div class="line">
+                <hr>
+              </div>
+              <button class="button"><a href="#">GET AN INVITE</a></button>
+            </div>
+          </div>
+        </div>
+      </header>
 
-  Get an invite
+      <div class="header">
+          <div class="header-content">
+            <h2>Pricing</h2>
+          <p>Create a your stories, Photosnap is a platform for photographers and visual storytellers. 
+            It’s the simple way to create and share your photos.</p>
+          </div>
+        <div class="header-image">
+          <img src="./assets/pricing/desktop/hero.jpg" alt="hero-image">
+        </div>
+        </div>
 
-  Pricing
+      <div class="subscription">
+        <div class="top-toggle">
+          <span class="monthly" >Monthly</span>
+          <label aria-label="slide" class="switch">
+            <input id="checkbox" type="checkbox">
+            <span class="slider round"></span>
+            </label>
+            <span class="yearly">Yearly</span>
+        </div>
 
-  Create a your stories, Photosnap is a platform for photographers and visual storytellers. 
-  It’s the simple way to create and share your photos.
+        <div class="cardholder">
+        <div class="cards">
+          <div class="cards-content">
+           <p class="title">Basic</p> 
+              Includes basic usage of our platform. Recommended for new and aspiring photographers.
+              $19.00 per month
+              $190.00 per year
+              <button class="btn-1">Pick Plan</button>
+          </div>
+        </div>
 
-  Monthly
-  Yearly
+        <div class="cards">
+          <div class="cards-content">
+            <p class="title">Pro</p>
+            More advanced features available. Recommended for photography veterans and professionals.
+            $39.00 per month
+            $390.00 per year
+            <button class="btn-1">Pick Plan</button>
+          </div>
+        </div>
 
-  Basic
-  Includes basic usage of our platform. Recommended for new and aspiring photographers.
-  $19.00 per month
-  $190.00 per year
-  Pick Plan
+        <div class="cards">
+          <div class="cards-content">
+            <p class="title">Business</p>
+          Additional features available such as more detailed metrics. Recommended for business owners.
+          $99.00 per month
+          $990.00 per year
+          <button class="btn-1">Pick Plan</button>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      <div class="subscription-packages">
+        Compare
 
-  Pro
-  More advanced features available. Recommended for photography veterans and professionals.
-  $39.00 per month
-  $390.00 per year
-  Pick Plan
+          The Features
 
-  Business
-  Additional features available such as more detailed metrics. Recommended for business owners.
-  $99.00 per month
-  $990.00 per year
-  Pick Plan
+          Basic
+          Pro
+          Business
 
-  Compare
-
-  The Features
-
-  Basic
-  Pro
-  Business
-
-  Unlimited Story Posting
-  Unlimited Photo Upload
-  Embedding Custom Content
-  Customize Metadata
-  Advanced Metrics
-  Photo Downloads
-  Search Engine Indexing
-  Custom Analytics
-
-  We're in Beta. Get your invite today!
-  
-  Get an invite
-
+          Unlimited Story Posting
+          Unlimited Photo Upload
+          Embedding Custom Content
+          Customize Metadata
+          Advanced Metrics
+          Photo Downloads
+          Search Engine Indexing
+          Custom Analytics
+      </div>
+      <div class="base-footer">
+       <h2>We're in Beta. Get your invite today!</h2> 
+       <a href="#">Get an invite<svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 7H41.864" stroke="white"/>
+        <path d="M35.4282 1L41.4282 7L35.4282 13" stroke="white"/>
+        </svg>
+        </a>
+      </div>
   <div class="footer">
     <div class="footer-content row">
       <div class="footer-content-right">
