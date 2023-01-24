@@ -253,6 +253,9 @@ svg{
     
     
     }
+    .nav{
+        margin-left: 20px;
+    }
     .button{
         display: none;
     }
