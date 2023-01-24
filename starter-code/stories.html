@@ -12,20 +12,38 @@
 </head>
 <body>
   <div class="container">
-    <div class="nav">
-      <div class="logo">
-        <img src="./assets/shared/desktop/logo.svg" alt="logo">
+    <header>
+      <!-- <div class="nav"> -->
+        <div class="logo">
+          <img src="./assets/shared/desktop/logo.svg" alt="logo">
+        </div>
+        <div class="nav-links">
+          <a href="stories.html"><li>Stories</li> </a>
+          <a href="features.html"><li>Features</li> </a>
+          <a href="pricing.html"><li>Pricing</li> </a>
+        </div>
+        <div class="nav-btn">
+          <button class="btn-1">GET AN INVITE</button>
+        </div>
       </div>
-      <div class="nav-links">
-        <a href="stories.html"><li>Stories</li> </a>
-        <a href="features.html"><li>Features</li> </a>
-        <a href="pricing.html"><li>Pricing</li> </a>
+  <!-- Nav bar menu -->
+      <div class="mob-menu">
+        <img class="mob-open"  src="./assets/shared/mobile/menu.svg" alt="openSvg">
+        <div class="mob-wrapper close">
+          <img src="./assets/shared/mobile/close.svg" class="mob-close" alt="closeSvg">
+        
+          <div class="mob-list">
+            <a href="stories.html" class="mob-list_item">Stories</a>
+            <a href="features.html" class="mob-list_item">Features</a>
+            <a href="pricing.html" class="mob-list_item">Pricing</a>
+            <div class="line">
+              <hr>
+            </div>
+            <button class="button"><a href="#">GET AN INVITE</a></button>
+          </div>
+        </div>
       </div>
-      <div class="nav-btn">
-        <button class="btn-1">GET AN INVITE</button>
-      </div>
-    </div>
-
+    </header>
     <div class="header">
       <div class="header-content">
         <p class="head-cont-p">Last month's featured story</p>
@@ -40,6 +58,9 @@
           <path d="M35.4282 1L41.4282 7L35.4282 13" stroke="white"/>
           </svg> </a>
       </div>
+    </div>
+    <div class="empty">
+
     </div>
   
     <div class="cardholder">
@@ -321,5 +342,6 @@
     </div>
    </div>  
 </div>
+<script src="./menu.js"></script>
 </body>
 </html>
