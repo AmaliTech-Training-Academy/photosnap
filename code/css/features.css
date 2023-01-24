@@ -245,7 +245,7 @@ svg{
     body{
         margin: 0;
         padding: 0;
-        width: 75px;
+        width: 375px;
     }
     .container{
         width: 375px;
@@ -253,6 +253,7 @@ svg{
         display: flex;
         flex-direction: column;
         margin-top: 0;
+        margin-right: -40px;
     }
     .tab{
         display: none;
@@ -273,6 +274,7 @@ svg{
         flex-direction: column-reverse;
         margin-top: 50px;
         width: 375px;
+        margin-right: -40px;
 
     }
     .features img{
@@ -377,5 +379,33 @@ margin-top: 60px;
     height: 20px;
     line-height: 20.2px;
     margin-left: -20px;
+}
+}
+@media (min-width: 376px) and (max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+.container{
+    width: 768px;
+}
+.nav{
+    width: 768px;
+}
+.nav button{
+    margin-left: 50px;
+}
+.nav .tab{
+    margin-left: 50px;
+}
+.features{
+    width: 768px;
+}
+.arrange{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin-top: 160px;
+    margin-left: 100px;
 }
 }
