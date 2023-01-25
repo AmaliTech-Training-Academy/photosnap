@@ -388,15 +388,25 @@ margin-top: 60px;
     }
 .container{
     width: 768px;
+    overflow: hidden;
+    height: 2167px;
 }
 .nav{
     width: 768px;
 }
 .nav button{
-    margin-left: 50px;
+    margin-left: -22px;
+    font-size: 12px;
+
 }
+.button{
+    margin-left: 63px;
+}
+ button{
+    width: 150px;
+ }
 .nav .tab{
-    margin-left: 50px;
+    margin-left: 5px;
 }
 .features{
     width: 768px;
