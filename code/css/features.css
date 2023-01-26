@@ -3,31 +3,39 @@
     font-family: 'DM Sans';
   }
   .container{
-    width: 1440px;
-    margin-left: -10px;
-    height: 1988px;
-    
+    width: 100%;
+    margin: 0 auto;
+
 }
-.nav{
+header{
     display: flex;
-    margin-top: 30px;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem auto;
 
 }
 .tab {
     display: flex;
     justify-content: space-between;
-    margin-left: 70px;
+    align-items: center;
+    width: 40%;
 
+}
+.tab a{
+    text-decoration: none;
+    color: #000;
 }
 .image{
     display: none;
 }
 .tab p{
     margin-left: 40px;
+    font-size: 12px;
 }
 .button{
     margin-left: 170px;
-    margin-top: 5px;
+    margin-top: -5px;
     margin-right: 20px;
     width: 158px;
 
@@ -42,6 +50,9 @@ button{
     font-size: 12px;
     height: 50px;
 }
+.mob-menu{
+    display: none;
+}
 .image{
     margin-top: 10px;
     margin-left: 20px;
@@ -50,15 +61,20 @@ button{
     display: flex;
     margin-top: 30px;
     width: 1440px;
-    height: 470px;
+    height: 460px;
+    margin-left: -4px;
+}
+.features img{
+  height: 460px;  
+    width: 900px;
 }
 .features .message{
     display: flex;
     flex-direction: column;
     background: #000;
-    height: 480px;
+    height: 460px;
     width: 610px;
-    margin-top: -10px;
+    margin-top: 0px;
 }
 .features .message h1{
     color: #fff;
@@ -240,7 +256,9 @@ svg{
    text-transform: capitalize;
    opacity: 50%;
 }
-
+.mobile{
+    display: none;
+}
 @media screen and (max-width: 375px){
     body{
         margin: 0;
@@ -248,20 +266,36 @@ svg{
         width: 375px;
     }
     .container{
-        width: 375px;
-        height: 33223px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-top: 0;
         margin-right: -40px;
-    }
+        overflow: hidden;
+        margin-left: -1px;
+        }
     .tab{
         display: none;
-    
-    
+    }
+
+    .mob-menu{
+        display: inline;
+        top: 1rem;
+    }
+    .mob-menu a{
+        display: none;
+    }
+    .mob-open, .mob-close{
+        display;
+    }
+    .nav .image{
+        margin-top: -17px;
+        width: 20px;
+        height: 6px;
     }
     .nav{
         margin-left: 20px;
+        margin-bottom: 200px;
     }
     .button{
         display: none;
@@ -272,7 +306,7 @@ svg{
     .features{
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 50px;
+        margin-top: 81px;
         width: 375px;
         margin-right: -40px;
 
@@ -324,7 +358,28 @@ svg{
         width:410px;
         height: 25px;
     }
+.arrange4 {
+        margin-left: -38px;
+    }
     
+.arrange5 {
+    margin-left: -38px;
+}
+.arrange1{
+    margin-left: -25px;
+}
+.arrange2{
+    margin-left: -38px;
+}
+.arrange3{
+    margin-left: -38px;
+}
+.arrange6{
+    margin-left: -38px;
+}
+.arrange p{
+    width: 310px;
+}
 .footer{
     display: flex;
     flex-direction: column;
@@ -380,6 +435,9 @@ margin-top: 60px;
     line-height: 20.2px;
     margin-left: -20px;
 }
+.desktop{
+margin-top: 40px;
+}
 }
 @media (min-width: 376px) and (max-width: 768px) {
     body{
@@ -387,9 +445,9 @@ margin-top: 60px;
         padding: 0;
     }
 .container{
-    width: 768px;
+    width: 100%;
     overflow: hidden;
-    height: 2167px;
+
 }
 .nav{
     width: 768px;
@@ -401,13 +459,16 @@ margin-top: 60px;
 }
 .button{
     margin-left: 63px;
+    margin-top: 0 ;
 }
  button{
     width: 150px;
+    height: 40px;
  }
 .nav .tab{
     margin-left: 5px;
 }
+
 .features{
     width: 768px;
 }
@@ -417,5 +478,37 @@ margin-top: 60px;
     gap: 80px;
     margin-top: 160px;
     margin-left: 100px;
+}
+.arrange3{
+    margin-top: 19px;
+}
+.arrange5{
+margin-top: 30px;
+}
+.beta p{
+    margin-right: 690px;
+}
+.beta h1{
+margin-left: 33px;
+}
+.nav2{
+    margin-left: 48px;
+    display: flex;
+    margin-top: 15px;
+}
+.nav2 p{
+    margin-right: 20px;
+}
+.social-media{
+    margin-top: 36px;
+}
+.invite{
+    margin-left: 462px;
+}
+.get{
+    margin-left: 108px;
+}
+.footer1{
+    margin-left: 24px;
 }
 }

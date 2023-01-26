@@ -11,22 +11,43 @@
 </head>
 <body>
   <div class="container">
-  <div class="nav">
-  <img src="assets/shared/desktop/logo.svg">
-  <div class="second">
-  </div>
-  <div class="tab">
-  <p>HOME </p>
- <p>STORIES</p>
-  <p>FEATURES</p>
-  <p>PRICING</p>
-  </div>
+    <header>
+      <div class="logo">
+          <img src="assets/shared/desktop/logo.svg">
+        </div>
 
-  <div class="button">
-    <div class="seek">
- <button>GET AN INVITE</button>
- </div>
-  </div>
+      <div class="tab">
+          <a href="index.html"><p>HOME</p></a>
+          <a href="stories.html"><p>STORIES</p></a>
+            <a href="features.html"><p>FEATURES</p></a>
+          <a href="pricing.html"><p>PRICING</p></a>
+        </div>
+
+      <div class="button">
+            <button>GET AN INVITE</button>
+        </div>
+
+        <!-- navbar -->
+          <div class="mob-menu">
+            <img class="mob-menu1" src="./assets/shared/mobile/menu.svg" alt="open-icon">
+              <div class="mob-wrapper close">
+                <img class="mob-close" src="./assets/shared/mobile/close.svg" alt="close-button">
+                <div class="mob-list">
+                  <a href="index.html" class="mob-list-item">HOME</a>
+                  <a href="stories.html" class="mob-list-item">STORIES</a>
+                  <a href="features.html" class="mob-list-item">FEATURES</a>
+                  <a href="pricing.html" class="mob-list-item">PRICING</a>
+                  <div class="line">
+                    <hr>
+                  </div>
+                  <button class="button"><a href="#">GET AN INVITE</a></button>
+                </div>
+              </div>
+            </div>
+    </header>
+  <div class="nav">
+  
+
   <div class="image">
   <img src="assets/features/desktop/Group 2.svg">
   </div>
@@ -37,8 +58,14 @@
  <p> We make sure all of our features are designed to be loved by every aspiring and even 
   professional photograpers who wanted to share their stories.</p>
   </div>
+  <div class="desktop">
   <img src="assets/features/desktop/hero.jpg">
+  </div>
+  <div class="mobile">
+    <img src="assets/features/mobile/hero.jpg" alt="hero">
+  </div>
 </div>
+
 <div class="arrange">
   <div class="arrange1">
     <img src="assets/features/desktop/responsive.svg">
@@ -117,6 +144,6 @@
   </div>
 </div>
     </div>
-  
+  <script src="features.js"></script>
 </body>
 </html>
