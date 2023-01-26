@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-
+ 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
  
 
@@ -28,29 +28,41 @@
   <title>Frontend Mentor | Photosnap Website Challenge</title>
 </head>
 <body>
-  
-
-   <header>
-     <img src="../starter/assets/shared/desktop/logo.svg" class="logo"/>
-     <nav class="nav__links">
-      <ul class="nav-list">
-      <li class="nav-item"><a href="#" class="nav-link">Stories</a></li>
-      <li><a href="#" class="nav-link">features</a></li>
-      <li><a href="#" class="nav-link">pricing</a></li>
-     </ul>
-         
-     <div id="nav-bar">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="6"><g fill-rule="evenodd"><path d="M0 0h20v1H0zM0 5h20v1H0z"/></g></svg>
-     </div>
-
-    </nav>
-    <a class="cta" href="#"><button>Get an invite</button></a>
    
-   </header> 
 
+
+
+
+
+   <header class="header">
+          <div class="hay">
+            <img src="../starter/assets/shared/desktop/logo.svg" class="logo"/>
+            <div class="openMenu">
+             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="6"><g fill-rule="evenodd"><path d="M0 0h20v1H0zM0 5h20v1H0z"/></g></svg>
+            </div> 
+            <div class="closeMenu">
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15"><path fill-rule="evenodd" d="M14.718.075l.707.707L8.707 7.5l6.718 6.718-.707.707L8 8.207l-6.718 6.718-.707-.707L7.293 7.5.575.782l.707-.707L8 6.793 14.718.075z"/></svg>
+            </div> 
+          </div>
     
+     <nav class="nav-links"> 
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Stories</a></li>
+        <li><a href="#" class="nav-link">features</a></li>
+        <li><a href="#" class="nav-link">pricing</a></li>
+       </ul>
    
+      
+           <a class="cta" href="#"><button>Get an invite</button></a>  
+      
+      
+     </nav>
+     </header> 
+    
+  
      <section>
+      
       <div class="angry-grid">
         
         <div id="item-0"></div>
@@ -391,6 +403,6 @@
    
 
 
-
+        <script src="/starter/menu.js"></script>
 </body>
 </html>

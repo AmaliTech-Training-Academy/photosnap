@@ -44,22 +44,29 @@ li, a, button {
   font-weight: 700;
 }
 
-.nav__links li {
+.nav-links li {
   display: inline-block;
   padding: 0px 20px;
 }
 
-.nav__links {
+.nav-links {
   list-style: none;
+  display: flex;
+  /* display: none; */
+  opacity: 0;
 }
 
-.nav__links li a {
+.nav-links li a {
   transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover {
+.nav-links li a:hover {
   color: var(--light-gray);
   cursor: pointer;
+}
+
+.nav-links.active{
+opacity: 1;
 }
 
 #nav-bar{
@@ -86,6 +93,13 @@ button:hover{
   color:var(--pure-black);
   cursor: pointer;
 } 
+
+.openMenu{
+  display: none;
+}
+.closeMenu{
+ display: none;
+}
 .angry-grid {
   display: grid; 
 
@@ -601,9 +615,9 @@ margin-bottom: .4rem;
  text-align: center;
   
 }
-.mid-section-img-left img{
+/* .mid-section-img-left img{
 
-}
+} */
 .mid-section-content-left{
  text-align: center;
  margin-top: 10rem;
@@ -769,20 +783,14 @@ margin-bottom: .4rem;
   fill: var(--pure-white);
 } 
 
-.socials-icon .facebook svg:hover{
-  background: linear-gradient(225deg, #63AFDB 0%, #6028F1 100%);
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-} 
+.socials-icon .facebook svg path:hover{fill: #691bb8};
 
 .socials-icon .youtube svg path{
   fill: var(--pure-white) !important;
 } 
 
-.socials-icon .youtube svg:hover{
-  background: linear-gradient(45deg, #D3205A 0%, #FF5A5A 100%);
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
+.socials-icon .youtube svg path:hover{
+fill: red;
 }
 
 .socials-icon .twitter svg path{
@@ -933,9 +941,7 @@ height: 40rem;
     display: none;
   } */
 
-  .cta{
-    display: none;
-  }
+  */
 
   #item-0 {
     
@@ -1059,21 +1065,64 @@ height: 40rem;
 }
 
 .nav-list{
-display:  none;
+ display:  none; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+background-color: #691bb8;
+padding: 10px;
+} 
+
+
+
+ .openMenu{
+  display: inline-block;
+ } 
+
+ .closeMenu{
+  display: inline-block;
+ }
+
+.openMenu.active, .closeMenu.active{
+  display: none;
 }
-.cta{
 
+.header{
+  display: flex;
+  flex-direction: column;
 } 
 
-#nav-bar{
-   display: inline-block; 
+.nav__links{
+  display: flex;
+  flex-direction: column;
 } 
 
-.nav-links{
-  
+.openMenu svg{
+  position: absolute;
+  right: 33px; 
+  top: 35px;
 } 
+.closeMenu svg{
+position: absolute;
+right: 60px;
+top: 32px;
+} 
+/* 
+.closeMenu{
+  display: none;
+} */
+
+.header img{
+  position: absolute;
+  left: 24px;
+} 
+
+.nav__links{
+  display: none;
+}
 
 
 
 }
-
