@@ -114,7 +114,6 @@ header{
 }
 
 .top-toggle{
-    border: 4px solid brown;;;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -148,7 +147,7 @@ header{
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--gradient);
+    background: hsl(240, 49%, 93%);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
@@ -164,21 +163,25 @@ header{
 	width: 26px;
 	left: 4px;
 	bottom: 4px;
-	background-color: white;
+	background-color: var(--pure-black);
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
 }
 
+.slider:after {
+    background-color: var(--Angel);
+}
+
 input:checked + .slider {
-	background: var(--gradient);
+	background: var(--pure-black);
 }
 
 input:checked + .slider:hover {
-	background: hsl(237, 56%, 87%);
+	background: hsl(240, 49%, 93%);
 }
 
 input:focus + .slider {
-	box-shadow: 0 0 1px #2196f3;
+	box-shadow: 0 0 1px #e8edf1;
 }
 
 input:checked + .slider:before {
@@ -196,7 +199,6 @@ input:checked + .slider:before {
 }
 
 .cardholder{
-    border: 4px solid pink;
     display: grid;
     grid-template-columns: auto auto auto;
     width: 90%;
@@ -206,7 +208,6 @@ input:checked + .slider:before {
 }
 
 .cards{
-    border: 3px solid orangered;
     margin: 2rem auto;
     box-shadow: 0px 0px 0.3rem rgba(236, 234, 234);
     padding: 1.5rem;
@@ -218,7 +219,6 @@ input:checked + .slider:before {
     position: relative;
     display: flex;
     flex-direction: column;
-    border: 4px solid orange;
     align-items: center;
     justify-content: center;
 }
@@ -232,10 +232,19 @@ input:checked + .slider:before {
     color: var(--pure-black);
 }
 
-/* .second-title, .second-text{
+.second-title, 
+.second-text, 
+.month-span-second, 
+.year-span-second, 
+.month-second, 
+.year-second{
     color: var(--Angel);
-} */
+}
 
+.btn-2{
+    color: var(--pure-black) !important;
+    background-color: var(--Angel) !important;
+}
 
 .text{
     /* position: absolute; */
@@ -249,15 +258,46 @@ input:checked + .slider:before {
     opacity: 0.6;
 }
 
-.month, .year{
-    display: flex;
+.monthly-price, .yearly-price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 48px;
+    padding-top: 15%;
+    align-items: center;
+}
+
+.yearly-price{
+    display: none;
+}
+
+.month-span, .year-span{
+    display: flex;;
     flex-direction: column;
     font-style: normal;
-font-weight: 700;
-font-size: 2rem;
-line-height: 48px;
-align-items: center;;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    align-items: center;;
+    mix-blend-mode: normal;
+    opacity: 0.6;
 }
+
+.cards-btn{
+    position: absolute;
+    height: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 20rem;
+    padding: 10px 80px;
+    align-items: center;
+    color: var(--Angel);
+    background-color: var(--pure-black);
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+
 
 
 
@@ -269,7 +309,8 @@ align-items: center;;
     }
   
     .second {
-      height: 40rem;
+      height: 35rem;
+      background: var(--pure-black);
     }
   
     .second-content {

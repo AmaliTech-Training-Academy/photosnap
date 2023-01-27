@@ -566,6 +566,7 @@ hr{
 /* side nav bar */
 .mob-open{
     /* position: fixed; */
+    border: 3px solid green;;
     right: 18rem;
     top: 18rem;
 }
