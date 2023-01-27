@@ -53,7 +53,7 @@ li, a, button {
   list-style: none;
   display: flex;
   /* display: none; */
-  opacity: 0;
+ 
 }
 
 .nav-links li a {
@@ -94,12 +94,17 @@ button:hover{
   cursor: pointer;
 } 
 
-.openMenu{
+
+.mob-list{
   display: none;
 }
-.closeMenu{
- display: none;
+
+.mob-open{
+  display: none;
 }
+
+.mob-menu{}
+
 .angry-grid {
   display: grid; 
 
@@ -937,11 +942,7 @@ height: 40rem;
  
 } 
 
-  /* .nav__links{
-    display: none;
-  } */
-
-  */
+ 
 
   #item-0 {
     
@@ -1064,17 +1065,6 @@ height: 40rem;
   left: 3.5rem;
 }
 
-.nav-list{
- display:  none; 
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
-background-color: #691bb8;
-padding: 10px;
-} 
-
 
 
  .openMenu{
@@ -1085,21 +1075,12 @@ padding: 10px;
   display: inline-block;
  }
 
-.openMenu.active, .closeMenu.active{
-  display: none;
-}
 
-.header{
-  display: flex;
-  flex-direction: column;
-} 
 
-.nav__links{
-  display: flex;
-  flex-direction: column;
-} 
 
-.openMenu svg{
+
+
+/* .openMenu svg{
   position: absolute;
   right: 33px; 
   top: 35px;
@@ -1108,21 +1089,111 @@ padding: 10px;
 position: absolute;
 right: 60px;
 top: 32px;
-} 
-/* 
-.closeMenu{
-  display: none;
-} */
+}  */
 
-.header img{
-  position: absolute;
-  left: 24px;
-} 
-
-.nav__links{
+.nav-links{
   display: none;
 }
 
 
+.cta{
+  display: none;
+}
+
+.mob-menu{
+  position: relative;
+}
+.mob-open{
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.mob-list{
+
+  height: 45%;
+  width: 100%;
+  position: fixed;
+  right: 0;
+ top: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: var(--pure-white);
+  z-index: 2;
+}
+
+
+
+.mob-list_item{
+  position: relative;
+  top: 4rem;
+  color: var(--pure-black);
+  text-decoration: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 15px;
+}
+
+.line{
+
+  
+  width: 300px;
+  position: relative;
+  top: 5rem;
+  right: 7%;
+}  
+
+.mob-open{  
+  display: inline-block;
+}
+
+
+
+
+.nav-logo
+{
+  position: relative;
+  top: 2rem;
+  right: 6rem;
+}
+
+
+
+.button{
+  position: relative;
+  
+ font-weight: 700;
+ top: 7rem;
+ width: 300px;
+  align-items: center;
+  color: var(--Angel);
+  background-color: var(--pure-black);
+  font-size: 0.8rem;
+}
+
+.button a{
+  color: #fff;
+  font-size: 15px;
+}
+
+.mob-close{
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  z-index: 5;
+}
+
+/* js */
+.opened{
+  opacity: 1;
+}
+.close{
+  opacity: 0;
+}
+Footer{
+
+}
 
 }
