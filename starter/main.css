@@ -26,9 +26,10 @@ body{
 
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around; 
+   align-items: center; 
   padding: 30px 10%;
+
   
 }
 
@@ -47,12 +48,13 @@ li, a, button {
 .nav-links li {
   display: inline-block;
   padding: 0px 20px;
+
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  /* display: none; */
+  
  
 }
 
@@ -75,7 +77,7 @@ opacity: 1;
 
 
 button {
-  /* padding: 9px 25px; */
+ 
   background-color: var(--pure-black);
   width: 158px;
   height: 48px;
@@ -103,7 +105,7 @@ button:hover{
   display: none;
 }
 
-.mob-menu{}
+
 
 .angry-grid {
   display: grid; 
@@ -526,6 +528,10 @@ margin-bottom: .4rem;
   
     
  }
+
+ .mob-close{
+  display: none;
+ }
  
  .read-story-content2{
    display: flex;
@@ -894,6 +900,15 @@ height: 40rem;
 }
 
 
+.mid-section-content-paragraph-left p{
+  width: 400px;
+}
+
+.mid-section-content-paragraph-center p{
+  width: 400px;
+}
+
+
 .footer-content-right{
   position: absolute;
   left: 5%
@@ -1176,6 +1191,10 @@ top: 32px;
 .button a{
   color: #fff;
   font-size: 15px;
+} 
+
+.mob-close{
+  display: inline-block;
 }
 
 .mob-close{
@@ -1192,8 +1211,6 @@ top: 32px;
 .close{
   opacity: 0;
 }
-Footer{
 
-}
 
 }
