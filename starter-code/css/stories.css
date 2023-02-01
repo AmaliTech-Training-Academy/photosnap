@@ -272,6 +272,10 @@ hr{
     width: 60%;
 }
 
+.arrow{
+    padding-left: 5rem;
+}
+
 .footer{
     display: flex;
     margin: 0 auto;
@@ -558,6 +562,7 @@ hr{
         position: relative;
         left: 0%;
     }
+
     .extra-nav{
         text-align: center;
     }
