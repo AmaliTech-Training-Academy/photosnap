@@ -533,11 +533,19 @@ tr{
             z-index: 5;
     }
 
+    .empty{
+        display: flex;
+        align-items: center ;
+        height: 35rem;
+        margin: 0rem auto 0 auto;
+        background: var(--pure-black);
+    }
+
     .cardholder{
         display: grid;
         grid-template-columns: auto;
     }
-    
+
     .footer{
         display: flex;
         align-items: center;
