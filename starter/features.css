@@ -94,6 +94,16 @@
     color:var(--pure-black);
     cursor: pointer;
   } 
+
+  .mob-list{
+    display: none;
+  }
+  
+  .mob-open{
+    display: none;
+  }
+  
+  
   
 
   .first-section-grid {
@@ -699,5 +709,209 @@ footer{
   justify-content: space-between;
   width: 20rem;
 }
+
+} 
+
+
+
+/* Media Queries for all mobile devices */
+@media screen and (max-width:480px) and (min-width:320px){
+
+ body{
+ 
+ }
+
+.first-section-grid{
+  display: flex;
+  flex-direction: column;
+}
+
+#item-0{
+  height:350px;
+}
+
+#item-1{
+  height: 320px;
+}
+
+.side-verticle-line{
+  position: relative;
+  bottom: 5rem
+}
+
+.item-1-description{
+  position: relative;
+  bottom: 5.5rem;
+}
+
+.mid-container-content{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.footer-1-image{
+  background-image: url(./assets/shared/mobile/bg-beta.jpg);
+}
+
+
+.footer{
+  height: 500px;
+  
+} 
+
+
+.logo1{
+  position: relative;
+  bottom: 10rem;
+  left: 50%;
+
+} 
+
+
+.socials-icon{
+ 
+  position: relative;
+  bottom: 10rem;
+  left: 50%;
+
+}
+
+.extra-nav{
+  position: relative;
+  right: 50%;
+  top: 10rem;
+} 
+.footer-links a{
+  text-align: center;
+  position: relative;
+  
+  bottom: 2rem;
+  left: 55%;
+ 
+}
+
+
+
+
+.footer-extra-nav p{
+  position: relative;
+  top: 10rem;
+  right: 16%;
+}
+
+.openMenu{
+  display: inline-block;
+ } 
+
+ .closeMenu{
+  display: inline-block;
+ }
+ .nav-links{
+  display: none;
+}
+
+
+.cta{
+  display: none;
+}
+
+.mob-menu{
+  position: relative;
+}
+.mob-open{
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.mob-list{
+
+  height: 45%;
+  width: 100%;
+  position: fixed;
+  right: 0;
+ top: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: var(--pure-white);
+  z-index: 2;
+}
+
+
+
+.mob-list_item{
+  position: relative;
+  top: 4rem;
+  color: var(--pure-black);
+  text-decoration: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 15px;
+}
+
+.line{
+
+  
+  width: 300px;
+  position: relative;
+  top: 5rem;
+  right: 7%;
+}  
+
+.mob-open{  
+  display: inline-block;
+}
+
+
+
+
+.nav-logo
+{
+  position: relative;
+  top: 2rem;
+  right: 6rem;
+}
+
+
+
+.button{
+  position: relative;
+  
+ font-weight: 700;
+ top: 7rem;
+ width: 300px;
+  align-items: center;
+  color: var(--Angel);
+  background-color: var(--pure-black);
+  font-size: 0.8rem;
+}
+
+.button a{
+  color: #fff;
+  font-size: 15px;
+} 
+
+.mob-close{
+  display: inline-block;
+}
+
+.mob-close{
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  z-index: 5;
+}
+
+/* js */
+.opened{
+  opacity: 1;
+}
+.close{
+  opacity: 0;
+}
+
+
 
 }
