@@ -198,7 +198,7 @@ input:checked + .slider:before {
     margin: 2rem auto;
     box-shadow: 0px 0px 0.3rem rgba(236, 234, 234);
     padding: 1.5rem;
-    width: 25rem;
+    width: 30%;
     height: 30rem;
 }
 
@@ -321,7 +321,7 @@ table{
     height: 34rem;
     width: 55%;
     justify-content: center;
-    margin: 3rem auto;
+    margin: 3rem auto 7rem auto;
 }
 
 tr{
@@ -446,7 +446,8 @@ tr{
 }
 
 .extra-nav p{
-    color: var(--light-grey);
+    position: relative;
+    top: 35rem;
 }
 
 
@@ -461,6 +462,9 @@ tr{
         grid-template-columns: auto;
     }
 
+    .cards{
+        width: 70%;
+    }
     table{
         width: 90%;
     }
@@ -526,20 +530,36 @@ tr{
         left: 9%;
     }
     .mob-menu{
-            display: inline;
-            position: absolute;
-            left: 18rem;
-            top: 1.5rem;
-            z-index: 5;
+        display: inline;
+        position: absolute;
+        left: 18rem;
+        top: 1.5rem;
+        z-index: 5;
     }
 
-    .empty{
+    .header{
+        height: 40rem;
+    }
+
+    .header-image{
+        background: #5A77FF;
+        height: 20rem;
+    }
+
+    .header-content{
+        position: relative;
+        left: 2rem;
+        top: 28rem;
+        width: 21rem;
+    }
+
+    /* .empty{
         display: flex;
         align-items: center ;
         height: 35rem;
         margin: 0rem auto 0 auto;
         background: var(--pure-black);
-    }
+    } */
 
     .cardholder{
         display: grid;
