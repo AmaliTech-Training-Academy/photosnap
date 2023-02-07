@@ -717,7 +717,7 @@ footer{
 @media screen and (max-width:480px) and (min-width:320px){
 
  body{
- 
+
  }
 
 .first-section-grid{
@@ -738,6 +738,11 @@ footer{
   bottom: 5rem
 }
 
+.item-1-paragraph p{
+  font-size: 15px;
+  width: 320px;
+}
+
 .item-1-description{
   position: relative;
   bottom: 5.5rem;
@@ -746,6 +751,49 @@ footer{
 .mid-container-content{
   display: grid;
   grid-template-columns: 1fr;
+  gap: 5rem;
+}
+
+
+.mid-container1-paragraph p{
+  width: 280px;
+}
+
+.mid-container-content2-paragraph p{
+  width: 320px;
+}
+
+
+.mid-container-content3-paragraph p{
+  width: 320px;
+}
+
+.mid-container-content4-paragraph p{
+  width: 320px;
+}
+
+.mid-container-content5-paragraph p{
+  width: 310px;
+}
+
+.mid-container-content6-paragraph p{
+  width: 320px;
+}
+
+
+.mid-container-content3{
+  position: relative;
+  top: 5rem;
+}
+
+.mid-container-content4{
+  position: relative;
+  top: 5rem;
+}
+
+.mid-container-content6{
+  position: relative;
+  top: 13rem;
 }
 
 .footer-1-image{
