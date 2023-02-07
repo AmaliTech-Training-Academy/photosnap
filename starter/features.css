@@ -457,7 +457,6 @@ fill: red;
 .mid-container-content{
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
-
  align-items: center;
  justify-content: center;
  
@@ -789,9 +788,27 @@ footer{
   left: 55%;
  
 }
+.footer-image-text{
+  display: flex;
+  flex-direction: column;
+}
+.image-content-left p{
+  position: relative;
+  left: 1.5rem;
+  font-size: 36px;
+  width: 380px;
+  bottom: 3rem;
+}
 
+.image-content-right{
+  position: relative;
+  right: 4.5rem;
+  bottom: 2rem;
+}
 
-
+.right-text span{
+  font-size: 16px;
+}
 
 .footer-extra-nav p{
   position: relative;
