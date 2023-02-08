@@ -426,6 +426,14 @@ tr{
     height: 15rem;
 }
 
+.base-bar{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 240px;
+    background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+}
 .base-footer-content{
     position: relative;
     left: 15%;
@@ -547,6 +555,24 @@ tr{
         height: 490px;
         background-image: url('../assets/pricing/tablet/hero.jpg');
     }
+
+    .bar{
+        width: 128px;
+        height: 6px;
+        background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+        top: -6px;
+        left: 1px;
+    }
+
+    .second_bar{
+        position: absolute;
+        top: 96.2%;
+        left: 0;
+        width: 6px;
+        height: 270px;
+        background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+
+    }
     .cardholder{
         display: grid;
         grid-template-columns: auto;
@@ -657,11 +683,6 @@ tr{
         left: 1px;
     }
 
-    /* .header-image{
-        background: #5A77FF;
-        height: 20rem;
-    } */
-
     .header-content{
         position: relative;
         left: 0;
@@ -671,6 +692,7 @@ tr{
     }
 
     .left_title{
+        position: absolute;
 
     }
     .left_text{
@@ -862,6 +884,15 @@ tr{
         background: var(--pure-black);
     }
 
+    .second_bar{
+    position: absolute;
+        top: 174%;
+        left: 9.5%;
+        height: 6px;
+        background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+        width: 258px;
+    }
+
     table{
         display: none;
     }
@@ -936,8 +967,8 @@ tr{
    }
    .base-footer-nav{
    position: absolute;
-    left: 15%;
-    top: 248rem;
+    left: 5%;
+    top: 244rem;
 }
 
 .base-footer-content {
@@ -945,6 +976,6 @@ tr{
     left: 4%;
     top: 10%;
     height: 10rem;
-    width: 100%;
+    width: 95%;
 }
 }
