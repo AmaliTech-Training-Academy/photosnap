@@ -821,7 +821,9 @@ footer{
   bottom: 10rem;
   left: 50%;
 
-}
+} 
+
+
 
 .extra-nav{
   position: relative;
@@ -976,6 +978,22 @@ footer{
 .close{
   opacity: 0;
 }
+
+
+
+} 
+
+@media screen and (max-width:480px){
+
+    
+.image-content-left p{
+  font-size: 32px;
+  width: 330px;
+}
+
+}
+
+@media screen and (max-width:320px){
 
 
 
