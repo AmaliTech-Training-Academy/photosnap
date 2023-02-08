@@ -790,23 +790,7 @@ margin-bottom: .4rem;
   font-family: var(--small-paragraph);
 } 
 
-.socials-icon .facebook svg path{
-  fill: var(--pure-white);
-} 
-
-.socials-icon .facebook svg path:hover{fill: #691bb8};
-
-.socials-icon .youtube svg path{
-  fill: var(--pure-white) !important;
-} 
-
-.socials-icon .youtube svg path:hover{
-fill: red;
-}
-
-.socials-icon .twitter svg path{
-  fill: var(--pure-white) !important;
-}
+              
 
 
 /* Media Queries for All Tablet */
