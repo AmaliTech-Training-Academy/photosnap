@@ -557,17 +557,16 @@ tr{
     }
 
     .bar{
-        width: 128px;
-        height: 6px;
+        width: 6px;
+        height: 128px;
         background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
-        top: -6px;
         left: 1px;
     }
 
     .second_bar{
         position: absolute;
-        top: 96.2%;
-        left: 0;
+        top: 139.2%;
+        left: 37px;
         width: 6px;
         height: 270px;
         background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
@@ -579,9 +578,42 @@ tr{
     }
 
     .cards{
-        width: 70%;
+        width: 689px;
+        height: 270px;
+        background-color: #dfdfdf;
     }
 
+    .title{
+        position: absolute;
+        top: -0.5rem;
+        left: 2rem;
+        text-align: left;
+    }
+
+    .text{
+        position: absolute;
+        top: -1.8rem;
+        left: 2rem;
+        width: 18rem;
+        text-align: left;
+    }
+
+    .cards-btn{
+        position: absolute;
+        left: 2rem;
+        top: 11rem;
+    }
+
+    .monthly-price,
+    .yearly-price{
+        position: absolute;
+        right: 2rem;
+    }
+
+    .month-span, 
+    .year-span{
+        text-align: right;
+    }
     .second{
         background: var(--pure-black);
     }
