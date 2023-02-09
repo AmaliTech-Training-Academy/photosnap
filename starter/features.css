@@ -133,48 +133,54 @@
      grid-area: right-content;
     background-color:var(--pure-black);
      color:var(--pure-white); 
-  height: 30rem;
+    height: 30rem;
    
     
   
   }
-  .item-1-heading h1{
-    letter-spacing: 4.17px;;
-    width: 387px;
-    font-size: 40px;
-    font-family: var(--small-text);
-    text-transform: uppercase;
 
-    
-    
-  }
-  .item-1-content{
-  display: flex;
-  padding-top: 10rem;
- 
+.item-content{
+  width: 387px;
+  height: 144px;
+  display: block;
+  margin: 12rem auto;
+}
 
-    
-  }
+ .item-heading h1{
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: var(--small-text);
+  font-weight: 700;
+  letter-spacing: 4.166px;
+  line-height: 24px;
+  color: var(--pure-white);
   
-  .item-1-paragraph{
-    font-family: var(--small-paragraph);
-    font-size: 15px;
-    line-height: 25px;
-    color:var(--light-gray);
-    width: 380px;
-    padding-top: 1.313rem;
+ }
  
-   
-    
-    
-   
-  }
-
-  .item-1-description{
-    margin: 0 auto;
-  }
+ .item-paragraph p{
+  font-family: var(--small-text);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  width: 387px;
+  color: var(--pure-white);
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  padding-top: 1.3rem;
+ 
  
 
+ }
+
+
+ .side-bar{
+  width: 6px;
+  height: 144px;
+  background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+  position: absolute;
+  left: 0%;
+  top: 305px;
+ }
 .footer-1{
   position: relative;
   top: 4rem;
@@ -185,18 +191,17 @@
   width: 100%;
   height: 280px;
   background-size: cover;
+  display: flex;
 
 
 } 
 
 
-.footer-image-text{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    bottom: 12rem;
-    
+.footer-bar{
+  width: 6px;
+  height: 280px;
+  
+background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
 }
 .image-content-right{
   display: flex;
@@ -738,14 +743,32 @@ footer{
   bottom: 5rem
 }
 
-.item-1-paragraph p{
-  font-size: 15px;
-  width: 320px;
+
+
+.item-content{
+  width: 80%;
+
+ 
+  
 }
 
-.item-1-description{
+.item-heading h1{
   position: relative;
-  bottom: 5.5rem;
+  bottom: 6.5rem;
+}
+
+.item-paragraph p{
+  width: 318px;
+  position: relative;
+  bottom: 6.5rem;
+}
+
+.side-bar{
+  width: 128px; 
+  height: 6px;
+  position: absolute;
+  top: 26.25rem ;
+  left: 1.813rem;
 }
 
 .mid-container-content{
@@ -806,6 +829,12 @@ footer{
   
 } 
 
+.footer-bar{
+  width: 128px;
+  height: 6px;
+  position: relative;
+  left:  1.8rem;
+}
 
 .logo1{
   position: relative;
