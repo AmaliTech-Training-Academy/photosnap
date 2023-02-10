@@ -685,6 +685,7 @@ tr{
         top: 8%;
         left: 9%;
     }
+    
     .mob-menu{
         display: inline;
         position: absolute;
@@ -901,6 +902,14 @@ tr{
         margin: 0 auto;
     }
 
+    .mob-menu{
+        display: inline;
+        position: absolute;
+        left: 18rem;
+        top: 1.5rem;
+        z-index: 5;
+    }
+    
     .cards{
         width: 90%;
     }

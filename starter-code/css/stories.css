@@ -154,7 +154,7 @@ header{
 
 .cards:hover{
     transform: translateY(-20px);
-    box-shadow: 0 20px 2px rgba(0,0,0,0.2);
+    /* box-shadow: 0 20px 2px rgba(0,0,0,0.2); */
 }
 
 .cards-content{
@@ -192,6 +192,24 @@ hr{
 .top1{
     background: url(../assets/stories/desktop/mountains.jpg) no-repeat;
     background-size: cover;
+}
+
+.top1:before, .top2:before,
+.top3:before, .top4:before,
+.top5:before, .top6:before,
+.top7:before, .top8:before,
+.top9:before, .top10:before,
+.top11:before, .top12:before,
+.top13:before, .top14:before,
+.top15:before, .top16:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    z-index: -1;
 }
 
 .top2 {
