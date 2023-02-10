@@ -140,6 +140,12 @@ grid-area: first-image;
 
 }
 
+.side-verticle-line{
+  width: 6px;
+  height: 304px;
+  background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+}
+
 #item-2 {
    grid-area: three;
    height: 40rem;
@@ -350,6 +356,54 @@ height: 40rem;
   background: url('./assets/stories/desktop/architecturals.jpg');
   background-size: cover;
   transition: transform 0.3s ease-in-out;
+}
+
+
+.img1:before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+  z-index: -1;
+ 
+
+}
+.img2:before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+  z-index: -1;
+ 
+}
+.img3:before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+  z-index: -1;
+
+
+} 
+.img4:before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+  z-index: -1;
+
 }
 
 .img1:hover{
@@ -829,6 +883,7 @@ grid-area: first-image;
   background:url('./assets/home/tablet/create-and-share.jpg'); 
   height: 40rem;
    background-size: cover; 
+   width: 100%;
   
 
 }
@@ -929,8 +984,8 @@ height: 40rem;
 
 
   .image-grid{
-   display: flex;
-   flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   } 
 
   .angry-grid{
@@ -952,7 +1007,8 @@ height: 40rem;
     
     }
  #item-1{
-   height: 40rem;
+   height: 30rem;
+   
  }
 
 #item-2 {
@@ -973,9 +1029,70 @@ height: 40rem;
 }
 #item-4{
   height: 35rem;
+} 
+.item-1-heading h1{
+  font-size: 32px;
+  width: 310px;
+}
+
+.item-1-paragraph{
+  width: 310px;
+}
+.item-1-description{
+  width: 80%;
+  position: relative;
+  bottom: 4rem;
+}
+.side-verticle-line{
+  width:128px;
+  height: 6px;
+  position: absolute;
+  bottom: 42%;
+ 
+}
+
+.line hr{
+ width: 310px;
+ height: 1px;
+ position: relative;
+ bottom: 5rem;
 }
 
 
+
+.item3-content-heading{
+  width: 80%;
+
+}
+.item3-content-heading h1{
+  font-size: 32px;
+  width: 280px;
+}
+
+.item3-content-paragraph{
+  width: 80%;
+}
+
+.item3-content-paragraph p{
+  width: 318px;
+}
+
+.item4-content-heading{
+  width: 80%;
+}
+
+.item4-content-heading h1{
+  font-size: 32px;
+  width: 280px;
+}
+
+.item4-content-paragraph{
+  width: 80%;
+}
+
+.item4-content-paragraph p{
+  width: 318px;
+}
 .mid-section-content-span-right p{
   width: 300px;
 }
@@ -1026,20 +1143,20 @@ height: 40rem;
 }
 
 .line hr{
-  width: 360px;
+  width: 310px;
 }
 
 
 .line1 hr{
-  width: 360px;
+  width: 310px;
 } 
 
 .line2 hr{
-  width: 360px;
+  width: 310px;
 } 
 
 .line3 hr{
-  width: 360px;
+  width: 310px;
 } 
 
 
