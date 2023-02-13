@@ -125,7 +125,7 @@ height: 100%;
  
 #item-0 {
 grid-area: first-image;
-  background:url('./assets/home/desktop/create-and-share.jpg'); 
+  background:url('../assets/home/desktop/create-and-share.jpg'); 
   height: 40rem;
    background-size: cover; 
   
@@ -144,12 +144,14 @@ grid-area: first-image;
   width: 6px;
   height: 304px;
   background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+  position: absolute;
+  left: 0%;
 }
 
 #item-2 {
    grid-area: three;
    height: 40rem;
-  background: url(./assets/home/desktop/beautiful-stories.jpg);
+  background: url(../assets/home/desktop/beautiful-stories.jpg);
   background-size: cover;
   
  
@@ -172,7 +174,7 @@ height: 40rem;
 }
 #item-5 {
   grid-area: six;
-  background: url('./assets/home/desktop/designed-for-everyone.jpg');
+  background: url('../assets/home/desktop/designed-for-everyone.jpg');
   
   background-size: cover;
   height: 40rem; 
@@ -332,20 +334,20 @@ height: 40rem;
 }
 
 .img1{
-  background: url('./assets/stories/desktop/mountains.jpg');
+  background: url('../assets/stories/desktop/mountains.jpg');
   background-size: cover;
   transition: transform 0.3s ease-in-out;
  }
 
 
  .img2{
- background: url('./assets/stories/desktop/cityscapes.jpg');
+ background: url('../assets/stories/desktop/cityscapes.jpg');
  background-size: cover;
  transition: transform 0.3s ease-in-out;
  }
 
 .img3{
-  background: url('./assets/stories/desktop/18-days-voyage.jpg');
+  background: url('../assets/stories/desktop/18-days-voyage.jpg');
   background-size: cover;
   transition: transform 0.3s ease-in-out;
 } 
@@ -353,7 +355,7 @@ height: 40rem;
 
 
 .img4{
-  background: url('./assets/stories/desktop/architecturals.jpg');
+  background: url('../assets/stories/desktop/architecturals.jpg');
   background-size: cover;
   transition: transform 0.3s ease-in-out;
 }
@@ -880,7 +882,7 @@ height: 100%;
  
 #item-0 {
 grid-area: first-image;
-  background:url('./assets/home/tablet/create-and-share.jpg'); 
+  background:url('../assets/home/tablet/create-and-share.jpg'); 
   height: 40rem;
    background-size: cover; 
    width: 100%;
@@ -896,7 +898,7 @@ grid-area: first-image;
 #item-2 {
    grid-area: three;
    height: 40rem;
-  background: url(./assets/home/tablet/beautiful-stories.jpg);
+  background: url(../assets/home/tablet/beautiful-stories.jpg);
   background-size: cover;
   
  
@@ -919,7 +921,7 @@ height: 40rem;
 }
 #item-5 {
   grid-area: six;
-  background: url('./assets/home/tablet/designed-for-everyone.jpg');
+  background: url('../assets/home/tablet/designed-for-everyone.jpg');
   
   background-size: cover;
   height: 40rem; 
@@ -1000,7 +1002,7 @@ height: 40rem;
 
   #item-0 {
     
-    background-image: url(./assets/home/mobile/create-and-share.jpg);
+    background-image: url(../assets/home/mobile/create-and-share.jpg);
     background-size: cover; 
     height: 20rem;
   
@@ -1012,7 +1014,7 @@ height: 40rem;
  }
 
 #item-2 {
-  background-image: url(./assets/home/mobile/beautiful-stories.jpg);
+  background-image: url(../assets/home/mobile/beautiful-stories.jpg);
   background-size: cover;
   height: 20rem;
 }
@@ -1023,7 +1025,7 @@ height: 40rem;
 }
 
 #item-5{
-  background-image: url(./assets/home/mobile/designed-for-everyone.jpg);
+  background-image: url(../assets/home/mobile/designed-for-everyone.jpg);
   background-size: cover;
   height: 23.4375rem
 }
@@ -1047,7 +1049,7 @@ height: 40rem;
   width:128px;
   height: 6px;
   position: absolute;
-  bottom: 42%;
+  top: 390px;
  
 }
 
