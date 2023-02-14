@@ -830,6 +830,12 @@ margin-bottom: .4rem;
 
 .extra-nav{
   text-align: right;
+} 
+
+.extra-nav svg{
+  position: relative;
+  left: 2rem;
+  top: 0.2rem;
 }
 
 .extra-nav a{
@@ -1049,7 +1055,8 @@ height: 40rem;
   width:128px;
   height: 6px;
   position: absolute;
-  top: 390px;
+  top: 395px;
+  left: 2rem;
  
 }
 
@@ -1108,7 +1115,7 @@ height: 40rem;
 .logo1{
   position: relative;
   bottom: 10rem;
-  left: 50%;
+  left: 40%;
 
 } 
 
@@ -1117,7 +1124,7 @@ height: 40rem;
  
   position: relative;
   bottom: 10rem;
-  left: 50%;
+  left: 40%;
 
 }
 
@@ -1146,6 +1153,9 @@ height: 40rem;
 
 .line hr{
   width: 310px;
+  position: relative;
+  bottom: 8rem;
+
 }
 
 
@@ -1228,7 +1238,7 @@ top: 32px;
 }
 .mob-list{
 
-  height: 45%;
+  height: 55%;
   width: 100%;
   position: fixed;
   right: 0;
@@ -1259,8 +1269,8 @@ top: 32px;
   
   width: 300px;
   position: relative;
-  top: 5rem;
-  right: 7%;
+  top: 8rem;
+  right: 3%;
 }  
 
 .mob-open{  
@@ -1274,7 +1284,7 @@ top: 32px;
 {
   position: relative;
   top: 2rem;
-  right: 6rem;
+  right: 4rem;
 }
 
 
@@ -1283,7 +1293,7 @@ top: 32px;
   position: relative;
   
  font-weight: 700;
- top: 7rem;
+ top: 3rem;
  width: 300px;
   align-items: center;
   color: var(--Angel);

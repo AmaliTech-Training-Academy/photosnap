@@ -12,3 +12,5 @@ close.addEventListener("click",() => {
     wrapper.toggle("opened");
     wrapper.toggle("close");
 });
+
+
