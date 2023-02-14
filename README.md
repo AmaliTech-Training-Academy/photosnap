@@ -11,7 +11,7 @@ Photosnap is a web application. It enables users to:
 
 ## Live Project Link 
 
-https://my-team1.vercel.app/
+https://photosnap-kevin68107.vercel.app/
 
 ## Tech Stack
 

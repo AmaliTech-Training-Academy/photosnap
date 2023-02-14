@@ -154,12 +154,11 @@ header{
 
 .cards:hover{
     transform: translateY(-20px);
-    /* box-shadow: 0 20px 2px rgba(0,0,0,0.2); */
 }
 
 .cards-content{
     position: relative;
-    top: 70%;
+    top: 62%;
     left: 13%;
     line-height: 4rem;
 }

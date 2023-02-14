@@ -565,7 +565,7 @@ tr{
 
     .second_bar{
         position: absolute;
-        top: 153.2%;
+        top: 89.8%;
         left: 37px;
         width: 6px;
         height: 270px;
@@ -920,7 +920,7 @@ tr{
 
     .second_bar{
     position: absolute;
-        top: 191%;
+        top: 112%;
         left: 9.5%;
         height: 6px;
         background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
