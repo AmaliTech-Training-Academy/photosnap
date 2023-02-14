@@ -24,7 +24,7 @@ HTML, CSS and JAVASCRIPT
 
 # Preview
 ## Desktop 
-<img src="/assets/127.0.0.1_5501_home-page-desktop.png(desktop).png" width=800px height=1000px>
+ <img src="./starter-code/assets/127.0.0.1_5501_home-page-desktop.png" width=800px height=1000px>
 <img src="/assets/127.0.0.1_5501_starter-code_pricing-page-desktop.png" width=800px height=1000px>
 <img src="/assets/127.0.0.1_5501_starter-code_features-page-desktop.png" width=800px height=1000px>
 <img src="/assets/127.0.0.1_5501_starter-code_stories-page-desktop.png" width=800px height=1000px>
