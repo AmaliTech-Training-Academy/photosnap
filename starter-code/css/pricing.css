@@ -366,7 +366,7 @@ input:checked + .slider:before {
     
     .second_bar{
         position: absolute;
-        top: 96.2%;
+        top: 103%;
         left: 36.5%;
         width: 410px;
         height: 6px;
@@ -565,7 +565,7 @@ tr{
 
     .second_bar{
         position: absolute;
-        top: 139.2%;
+        top: 153.2%;
         left: 37px;
         width: 6px;
         height: 270px;
@@ -634,7 +634,7 @@ tr{
     .base-footer-nav{
         position: absolute;
         left: 68.5%;
-        top: 208rem;
+        top: 169rem;
     }
 
     .footer-content{
@@ -724,22 +724,15 @@ tr{
         width: 100%;
     }
 
-    .left_title{
-        position: absolute;
-
-    }
     .left_text{
         width: 318px;
-        height: 156px;
+        height: 259px;
     }
-    /* .empty{
-        display: flex;
-        align-items: center ;
-        height: 35rem;
-        margin: 0rem auto 0 auto;
-        background: var(--pure-black);
-    } */
 
+    .desc{
+        position: relative;
+        top: 3rem;
+    }
     .cardholder{
         display: grid;
         grid-template-columns: auto;
@@ -909,7 +902,7 @@ tr{
         top: 1.5rem;
         z-index: 5;
     }
-    
+
     .cards{
         width: 90%;
     }
@@ -927,11 +920,11 @@ tr{
 
     .second_bar{
     position: absolute;
-        top: 174%;
+        top: 191%;
         left: 9.5%;
         height: 6px;
         background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
-        width: 258px;
+        width: 80.8%;
     }
 
     table{
@@ -948,7 +941,7 @@ tr{
         height: 2px;
         width: 100%;
     }
-    h1{
+    .compare{
         display: none;
     }
     h5{
