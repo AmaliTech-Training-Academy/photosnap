@@ -764,6 +764,7 @@ margin-bottom: .4rem;
   /* width: 95%; */
   align-items: center;
   background-color: var(--pure-black);
+  height: 250px;
   position: relative;
   top: 4rem;
 }
@@ -799,7 +800,8 @@ margin-bottom: .4rem;
   display: flex;
   letter-spacing: 0.7rem;
   justify-content: space-between;
-  margin: 2rem 0 0 0;
+  position: relative;
+  top: 4rem;
 }
 
 
@@ -807,7 +809,11 @@ margin-bottom: .4rem;
 .footer-nav-links{
 
   display: flex;
-  line-height: 1.5rem;
+  line-height: 2rem;
+  position: relative;
+  top: 1.5rem;
+ right: 10rem;
+  
  
 }
 
@@ -816,6 +822,7 @@ margin-bottom: .4rem;
   color: var(--pure-white);
   font-family: var(--small-text);
   font-size: 14px;
+
 } 
 
 .footer-nav-links a li:hover{
@@ -850,6 +857,9 @@ margin-bottom: .4rem;
  font-weight: 400;
  font-size: 15px;
   font-family: var(--small-paragraph);
+  position: relative;
+  left: 2rem;
+  top: 4rem;
 } 
 
               
@@ -885,7 +895,17 @@ height: 100%;
 
   
 }
+
+.logo1 svg{
+  position: relative;
+  bottom: 3rem;
+}
  
+.cta{
+  width: 158px;
+  height: 40px;
+}
+
 #item-0 {
 grid-area: first-image;
   background:url('../assets/home/tablet/create-and-share.jpg'); 
@@ -971,6 +991,18 @@ height: 40rem;
   display: flex;
   justify-content: space-between;
   width: 20rem;
+  position: relative;
+  top: 5rem;
+}
+
+.extra-nav{
+  position: relative;
+  bottom: 2.5rem;
+}
+
+.footer-extra-nav p{
+  position: relative;
+  top: 2.8rem;
 }
 
 } 
