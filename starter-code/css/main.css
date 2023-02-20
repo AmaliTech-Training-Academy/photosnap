@@ -24,6 +24,7 @@ body{
 
 
 
+
 header {
   display: flex;
   justify-content: space-around; 
@@ -54,6 +55,8 @@ li, a, button {
 .nav-links {
   list-style: none;
   display: flex;
+margin: auto;
+ 
   
  
 }
@@ -442,7 +445,8 @@ height: 40rem;
   height: 1px;
   opacity: 25%;
   background-color: var(--pure-white);
-  margin-top: .6rem;
+
+ margin-top: 1rem;
   
 }
 .img1-content p{
@@ -799,7 +803,6 @@ margin-bottom: .4rem;
   width: 100%;
   display: flex;
   letter-spacing: 0.7rem;
-  justify-content: space-between;
   position: relative;
   top: 4rem;
 }
@@ -1036,7 +1039,12 @@ height: 40rem;
  
 } 
 
- 
+ .socials-icon svg{
+ position: relative;
+ bottom: 12rem;
+ left: 5rem;
+
+}
 
   #item-0 {
     
@@ -1065,11 +1073,16 @@ height: 40rem;
 #item-5{
   background-image: url(../assets/home/mobile/designed-for-everyone.jpg);
   background-size: cover;
-  height: 23.4375rem
+  height: 23.4375rem;
+  
+
 }
 #item-4{
-  height: 35rem;
+  display: flex;
+  
 } 
+
+
 .item-1-heading h1{
   font-size: 32px;
   width: 310px;
@@ -1095,8 +1108,7 @@ height: 40rem;
 .line hr{
  width: 310px;
  height: 1px;
- position: relative;
- bottom: 5rem;
+
 }
 
 
@@ -1152,41 +1164,38 @@ height: 40rem;
 } 
 
 
-.socials-icon{
- 
-  position: relative;
-  bottom: 10rem;
-  left: 40%;
 
-}
 
 .extra-nav{
   position: relative;
-  right: 50%;
-  top: 10rem;
+  right: 40%;
+  top: 15rem;
 } 
 .footer-links a{
   text-align: center;
   position: relative;
-  
-  bottom: 2rem;
+  bottom: 3rem;
+
+ 
+}
+
+.footer-nav-links{
+  position: relative;
   left: 55%;
  
 }
 
 
 
-
 .footer-extra-nav p{
-  position: relative;
-  top: 10rem;
-  right: 16%;
-}
+padding-right: 80px;
+padding-top: 180px;
+   }
 
-.line hr{
+.line-mob hr{
   width: 310px;
   position: relative;
-  bottom: 8rem;
+  top: 4rem;
 
 }
 
@@ -1270,7 +1279,7 @@ top: 32px;
 }
 .mob-list{
 
-  height: 55%;
+  height: 42%;
   width: 100%;
   position: fixed;
   right: 0;
@@ -1301,7 +1310,7 @@ top: 32px;
   
   width: 300px;
   position: relative;
-  top: 8rem;
+  top: 12rem;
   right: 3%;
 }  
 
@@ -1325,7 +1334,7 @@ top: 32px;
   position: relative;
   
  font-weight: 700;
- top: 3rem;
+ top: 5rem;
  width: 300px;
   align-items: center;
   color: var(--Angel);

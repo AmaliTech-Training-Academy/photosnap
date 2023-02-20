@@ -53,6 +53,7 @@
   .nav-links {
     list-style: none;
     display: flex;
+    margin: auto;
     
    
   }
