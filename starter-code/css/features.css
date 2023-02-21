@@ -327,7 +327,15 @@ background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%
 
 }
 
+.footer1-right-text svg{
+  position: relative;
+  left: 1rem;
+}
 
+.footer1-right-text{
+  position: relative;
+  left: 5rem;
+}
 .footer1-content h2{
   font-size: 40px;
   color: var(--pure-white);
@@ -341,6 +349,7 @@ background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%
   height: 144px;
   position: relative;
   top: 5rem;
+  right: 5.5rem;
 }
 
 .footer1-right-text a{
@@ -715,6 +724,19 @@ footer{
   height: 200px;
 }
 
+.footer1-content h2{
+  position: relative;
+  left: 1rem;
+}
+.footer1-right-text{
+  position: relative;
+  left: 1rem;
+}
+
+.logo1{
+  position: relative;
+  bottom: 3rem;
+}
 
 .mid-section-content-paragraph-left p{
   width: 400px;
@@ -725,22 +747,52 @@ footer{
 }
 
 
+.mid-container-content3-paragraph p{
+  width: 350px;
+}
+
+.mid-container-content4-paragraph p{
+  width: 350px;
+}
+
 .footer-content-right{
   position: absolute;
   left: 5%
 } 
 
-.footer-nav-links{
-  position: absolute;
-  left: 5%;
+.footer-nav-links ul{
+  position: relative;
+  bottom: 3rem;
+}
+.extra-nav{
+  position: relative;
+  bottom: 2.8rem;
 }
 
+.footer-extra-nav p{
+  position: relative;
+  top: 2.8rem;
+}
 
 .footer-links{
   display: flex;
   justify-content: space-between;
   width: 20rem;
 }
+
+.mid-container-content6{
+  width: 90%;
+
+}
+.mid-container-content4{
+  width: 90%;
+}
+
+.mid-container-content2{
+  width: 90%;
+}
+
+
 
 } 
 
@@ -872,10 +924,10 @@ footer{
 } 
 
 
-.socials-icon{
+.socials-icon img{
  
   position: relative;
-  bottom: 10rem;
+  bottom: 12rem;
   left: 40%;
 
 } 
@@ -886,7 +938,15 @@ footer{
   width: 100%;
 }
 
+.footer-nav-links{
+  position: relative;
+  left: 10%; 
+}
 
+
+.footer-extra-nav p{
+ padding-right: 50px;
+}
 .extra-nav svg{
   position: relative;
   left: 1rem;
@@ -904,7 +964,7 @@ footer{
   width: 350px;
   position: relative;
   top: 0.2rem;
-  left: 1.5rem;
+  left: 1rem;
 
 }
 
@@ -987,7 +1047,7 @@ footer{
 }
 .mob-list{
 
-  height: 45%;
+  height: 50%;
   width: 100%;
   position: fixed;
   right: 0;
@@ -1019,13 +1079,18 @@ footer{
 }
 
 
-
+.mob-line hr{
+  width: 310px;
+  height: 1px;
+  position: relative;
+  top: 3.5rem;
+ }
 
 .nav-logo
 {
   position: relative;
   top: 2rem;
-  right: 6rem;
+  right: 4rem;
 }
 
 
@@ -1034,7 +1099,7 @@ footer{
   position: relative;
   
  font-weight: 700;
- top: 7rem;
+ top: 3rem;
  width: 300px;
   align-items: center;
   color: var(--Angel);
